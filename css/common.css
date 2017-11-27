@@ -330,7 +330,7 @@ body {
   box-shadow: 0  0 15px 0px #ddd;
 }
 /*page*/
-/*ҳ������css*/
+/*ҳ����css*/
 .tcdPageCode {
   padding: 15px 20px;
   text-align: left;
@@ -381,7 +381,7 @@ body {
   background: #FC6621;
   border: 1px solid #FC6621;
 }
-/*ҳ������css*/
+/*ҳ����css*/
 .gong-table {
   padding: 20px;
 }
@@ -564,4 +564,13 @@ body {
   left: 0;
   top: 0;
   cursor: move;
+}
+.scroll_button {
+  position: fixed;
+  width: 72px;
+  height: 72px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  background: url("../img/scroll-top.png") center no-repeat;
 }

@@ -11,7 +11,7 @@ $(function(){
 
 
    // $(".product-menue").load("./menue.html",function(){});
-    //�˵��۵�
+    //�˵��۵�
    /* $(".product-menue").on("click",".list-1",function(){
 
         $(this).find(".ul-2").slideDown().end().siblings().find(".ul-2").slideUp();
@@ -34,6 +34,47 @@ $(function(){
 
     });
 
+
+
+    //返回顶部
+    function scrolltop () {
+        var winHeight = $(window).height();
+        var scrollBtn = $('<div class="scroll_button" style="display: none"/></div>');
+        var scrollptop_timer=null;
+        var istop=true;
+        scrollBtn.appendTo($('body'));
+        console.log(scrollBtn[0])
+        window.onscroll=function(){
+            var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+            if(scrolltop > winHeight) {
+                scrollBtn.fadeIn();
+            }else {
+                scrollBtn.fadeOut();
+            }
+
+            if(!istop){
+                clearInterval(scrollptop_timer);
+            }
+            istop=false;
+        }
+        scrollBtn.on('click',function() {
+            clearInterval(scrollptop_timer);
+            scrollptop_timer=setInterval(function(){
+                var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+                var scroll_speed=Math.floor(-scrolltop/6);
+                document.documentElement.scrollTop=document.body.scrollTop=scrolltop+scroll_speed;
+                istop=true;
+                if(scrolltop==300){
+                    clearInterval(scrollptop_timer);
+                }
+
+            },30)
+
+        })
+
+
+    }
+    scrolltop();
 
 
 })
