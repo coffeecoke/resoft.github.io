@@ -16,7 +16,7 @@
 
     </div>
     <!--banner-->
-    <div class="ban-box"></div>
+    <div class="ban-box new-page-banner"></div>
 
     <!--新闻-->
     <div class="new-box clearfix">
@@ -78,7 +78,7 @@
     var num=  GetQueryString("i");
     //console.log(num);
     $.ajax({
-        "type":"get",
+        "type":"post",
         "async":true,
         "dataType":"json",
         "url":"../json/new.json",
@@ -114,6 +114,10 @@
                           if(s1=="$img?"){//取图片
                               var temp = element.substring(5,element.length)
                               str+='<img class="content-img" src="'+temp+'"/>';
+                          }
+                          if(s1=="$bmg?"){//取图片
+                              var temp = element.substring(5,element.length)
+                              str+='<img class="" style="width:100%;margin-top:10px;" src="'+temp+'"/>';
                           }
                           else{
                               str+=' <p class="b-p"> '+element+'  </p>'

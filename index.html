@@ -11,6 +11,7 @@
     <!--<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">-->
     <script src="js/rx-slider.js"></script>
     <script src="js/Bubble.js"></script>
+    <script src="js/drag.js"></script>
     <title>北京中软融鑫计算机系统工程有限公司</title>
 </head>
 <body>
@@ -21,7 +22,9 @@
                 <div class="big-top-string"></div>
                 <div class="ww">
                 <div>
-                    <img  class="logo" src="img/log_03.png" alt=""/>
+                    <a href="index.html">
+                        <img  class="logo" src="img/log_03.png" alt=""/>
+                    </a>
                     <h1 style="display: none">中软融鑫</h1>
                     <strong style="display: none">中软融鑫</strong>
                 </div>
@@ -33,7 +36,9 @@
                     <li class="list-1 pdt">
                         <span class="span-1">产品</span>
                         <div class="bottom-string"></div>
-                        <div class="h-box" style="height: 500px"></div>
+                        <div class="h-box" style="height: 500px">
+                            <p class="product-point-pictrue" id="product-point">2017年产品导向图</p>
+                        </div>
                         <ul class="ul-2" style="right: -330px;width: 1200px;">
                             <li class="list-2">
                                 <span class="span-2">监管合规应用</span>
@@ -42,6 +47,7 @@
                                     <li class="list-3"><a href="./html/p_10_waiguan.html?on=pdt">外管银行卡跨境交易方案</a></li>
                                     <li class="list-3"><a href="./html/p_11.html?on=pdt">银监会监管数据标准化EAST3.0</a></li>
                                     <li class="list-3"><a href="./html/p_12.html?on=pdt">反洗钱监测平台</a></li>
+                                    <li class="list-3"><a href="./html/p_30.html?on=pdt">财务公司金融监管</a></li>
 
                                 </ul>
                             </li>
@@ -56,6 +62,8 @@
                                     <li class="list-3"><a href="./html/p_17.html?on=pdt">协同工作流程平台</a></li>
                                     <li class="list-3"><a href="./html/p_18.html?on=pdt">移动集成平台</a></li>
                                     <li class="list-3"><a href="./html/p_19.html?on=pdt">人力资源管理平台</a></li>
+                                    <li class="list-3"><a href="./html/p_29.html?on=pdt">OA-Domin</a></li>
+                                    <li class="list-3"><a href="./html/air-oa.html?on=pdt">AIR OA</a></li>
                                 </ul>
                             </li>
                             <li class="list-2">
@@ -70,7 +78,8 @@
                                     <li class="list-3"><a href="./html/p_7_zhaiquan.html?on=pdt">债券承销平台</a></li>
                                     <li class="list-3"><a href="./html/p_8_zizhenghua.html?on=pdt">资产证券化平台</a></li>
                                     <li class="list-3"><a href="./html/p_25.html?on=pdt">投资项目管理信息系统</a></li>
-
+                                    <li class="list-3"><a href="./html/tjjg-platform.html?on=pdt">互联网金融统计监管平台</a></li>
+                                    <li class="list-3"><a href="./html/p_28.html?on=pdt">网络贷款“一站式服务平台”</a></li>
                                 </ul>
                             </li>
                             <li class="list-2">
@@ -108,7 +117,7 @@
                         <div class="h-box" style="height: 170px;"></div>
                         <ul class="ul-2" id="about-ul"  style="right: -566px;width: 1200px;">
                             <li class="list-2">
-                                <span class="span-2"><a href="./html/us_care_rx.html?on=about">了解融鑫</a></span>
+                                <span class="span-2"><a href="./html/us_care_rx.html?on=about">企业概述</a></span>
                             </li>
                             <li class="list-2">
                                 <span class="span-2"><a href="./html/tixi.html?on=about">业务体系</a></span>
@@ -216,19 +225,19 @@
                 <ul>
                     <li class="li-1 on">
                         <div class="img-box"> </div>
-                        <span>监管合规</span>
+                        <span>新业务拓展</span>
                     </li>
                     <li class="li-2">
                         <div class="img-box"> </div>
-                        <span>金融创新</span>
+                        <span>监管事业部</span>
                     </li>
                     <li class="li-3">
                         <div class="img-box"> </div>
-                        <span>互联网金融</span>
+                        <span>金融创新部</span>
                     </li>
                     <li class="li-4">
                         <div class="img-box"> </div>
-                        <span>智慧协同</span>
+                        <span>智慧协同事业部</span>
                     </li>
                 </ul>
             </div>
@@ -240,46 +249,59 @@
                 <table   cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">影像内容管理平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                助力企业数据整合功能更加智能、多样
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">客户风险预警平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                “人找信息”华丽转变成“信息找人”
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">外部数据整合平台</p>
+                            <p class="p-2">
+                                搭建完整的“外部数据库”，建造行内外数据体系桥梁
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">合规风险管理平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                风险监测T+1，合规经营我保障
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">征信查询前置管理系统</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                节省查询成本，有效提高征信数据利用价值
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">投资项目管理信息系统</p>
+                            <p class="p-2">
+                                面向投资机构，助其实现项目全流程管理
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">企业全面风险管理信息</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                为企业提供完整的风险管控解决方案
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">数据资源管理平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                完整的数据中心解决方案，使企业管理效率加速提高
                             </p>
                         </td>
                     </tr>
+
                 </table>
                 </div>
 <!---->
@@ -287,46 +309,34 @@
                 <table cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台1111</p>
+                            <p class="p-1">监管联盟集市RSUM</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                有效解决外端报送系统数据使用问题
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">外管银行卡跨境交易方案</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                快速搭建报送功能，准确又高效
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">反洗钱监测平台</p>
+                            <p class="p-2">
+                                钞票界的安全卫士
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">银监会监管数据标准化EAST3.0</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                金融机构监管数据报送的得力助手
                             </p>
                         </td>
-                        <td>
-                            <p class="p-1">数据分析平台</p>
-                            <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
-                            </p>
-                        </td>
+
                     </tr>
-                    <tr>
-                        <td>
-                            <p class="p-1">数据分析平台</p>
-                            <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
-                            </p>
-                        </td>
-                        <td>
-                            <p class="p-1">数据分析平台</p>
-                            <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
-                            </p>
-                        </td>
-                    </tr>
+
                 </table>
             </div>
                 <div class="data-table">
@@ -335,43 +345,55 @@
                 <table  cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台2222</p>
+                            <p class="p-1">现代商业智能平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                助力企业数据整合功能更加智能、多样
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">客户风险预警平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
-                            </p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="p-1">数据分析平台</p>
-                            <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                “人找信息”华丽转变成“信息找人”
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">外部数据整合平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                搭建完整的“外部数据库”，建造行内外数据体系桥梁
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">合规风险管理平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                风险监测T+1，合规经营我保障
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">征信查询前置管理系统</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                节省查询成本，有效提高征信数据利用价值
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">投资项目管理信息系统</p>
+                            <p class="p-2">
+                                面向投资机构，助其实现项目全流程管理
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="p-1">企业全面风险管理信息</p>
+                            <p class="p-2">
+                                为企业提供完整的风险管控解决方案
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">数据资源管理平台</p>
+                            <p class="p-2">
+                                完整的数据中心解决方案，使企业管理效率加速提高
                             </p>
                         </td>
                     </tr>
@@ -384,45 +406,52 @@
                 <table  cellpadding="0" cellspacing="0" border="0">
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台3333</p>
+                            <p class="p-1">Force营销平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                管理更智能 签单更快速
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">会议决策管理系统</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                管家式服务，告别会议繁琐流程
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">门户集成平台</p>
+                            <p class="p-2">
+                                为企业提供统一集成门户
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">任务督办平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                逐级分拆、逐级汇总，打造智能集成型督办平台
                             </p>
                         </td>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">协同工作流程平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                汇集数据建模、页面设计与流程设计的协作平台
+                            </p>
+                        </td>
+                        <td>
+                            <p class="p-1">移动集成平台</p>
+                            <p class="p-2">
+                                移动随身 适时而动
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="p-1">数据分析平台</p>
+                            <p class="p-1">人力资源管理平台</p>
                             <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
+                                为企业人力资源管理提供全方位服务
                             </p>
                         </td>
-                        <td>
-                            <p class="p-1">数据分析平台</p>
-                            <p class="p-2">
-                                为您量身打造新一代智能BI服务平台，你随身携带的报表分析师
-                            </p>
-                        </td>
+
                     </tr>
                 </table>
                 </div>
@@ -517,21 +546,24 @@
                 <div class="bottom">
                     <ul class="ul-1">
                         <li class="list-1">
-                            <div class="img-box">
-                                <div class="card">
-                                    <img src="img/cards_03.png" alt=""/>
+                            <a href="">
+                                <div class="img-box">
+                                    <div class="card">
+                                        <img src="img/cards_03.png" alt=""/>
+                                    </div>
+                                    <div class="sr">
+                                        监管开启3.0时代，融鑫喊话“EAST报送”
+                                    </div>
                                 </div>
-                                <div class="sr">
-                                    监管开启3.0时代，融鑫喊话“EAST报送”
-                                </div>
-                            </div>
+                            </a>
+
                             <ul class="ul-2">
 
                                 <li class="list-2">
                                     <a target="_blank" href="./html/news_page.html?i=0&&on=about">
-                                        <span>10.24</span>
+                                        <span>11.23</span>
                                         <span>|</span>
-                                        <span>中软融鑫统一监管，再度合作TCL金融控股集团</span>
+                                        <span>感恩节，融鑫有话对你说！</span>
                                     </a>
 
                                     <div class="hot">hot</div>
@@ -540,9 +572,9 @@
 
                                 <li class="list-2">
                                     <a target="_blank" href="./html/news_page.html?i=1&&on=about">
-                                        <span>10.24</span>
+                                        <span>11.23</span>
                                         <span>|</span>
-                                        <span>中软融鑫中标东航财务EAST3.0</span>
+                                        <span>项目经理学习教程—培训与部署、上线试运行如何做</span>
                                     </a>
 
 
@@ -551,9 +583,9 @@
 
                                 <li class="list-2">
                                     <a target="_blank" href="./html/news_page.html?i=2&&on=about">
-                                        <span>10.24</span>
+                                        <span>11.23</span>
                                         <span>|</span>
-                                        <span>融鑫携JAVAOA，首次合作玉山银行</span>
+                                        <span>监管报送系统更新，赶紧来看看！</span>
                                     </a>
 
 
@@ -562,69 +594,75 @@
                             </ul>
                         </li>
                         <li class="list-1">
-                            <div class="img-box">
-                                <div class="card">
-                                    <img src="img/cards_05.png" alt=""/>
+                            <a href="">
+                                <div class="img-box">
+                                    <div class="card">
+                                        <img src="img/cards_05.png" alt=""/>
+                                    </div>
+                                    <div class="sr">
+                                        【鑫声】鑫声杂志第四期
+                                    </div>
                                 </div>
-                                <div class="sr">
-                                    【鑫声】鑫声杂志第四期
-                                </div>
-                            </div>
+                            </a>
+
                             <ul class="ul-2">
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=4&&on=about">
-                                        <span>10.17</span>
+                                    <a target="_blank" href="./html/news_page.html?i=3&&on=about">
+                                        <span>11.23</span>
                                         <span>|</span>
-                                        <span>融鑫签单廊坊银行信息科技综合管理平台</span>
+                                        <span> 融鑫携“大集中”，首牵陕西能源财务公司</span>
                                     </a>
                                     <div class="hot">hot</div>
+                                </li>
+                                <li class="list-2">
+                                    <a target="_blank" href="./html/news_page.html?i=4&&on=about">
+                                        <span>11.23</span>
+                                        <span>|</span>
+                                        <span>中软融鑫“三箭齐发”， 首次合作外高桥财务公司</span>
+                                    </a>
                                 </li>
                                 <li class="list-2">
                                     <a target="_blank" href="./html/news_page.html?i=5&&on=about">
-                                        <span>10.17</span>
+                                        <span>11.23</span>
                                         <span>|</span>
-                                        <span>融鑫携网贷平台，入驻晋金所</span>
-                                    </a>
-                                </li>
-                                <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=6&&on=about">
-                                        <span>10.17</span>
-                                        <span>|</span>
-                                        <span>融鑫EAST3.0，再度合作瑞士银行</span>
+                                        <span>融鑫携理财直联系统，再度合作渤海银行</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="list-1">
-                            <div class="img-box">
-                                <div class="card">
-                                    <img src="img/cards_07.jpg" alt=""/>
+                            <a href="">
+                                <div class="img-box">
+                                    <div class="card">
+                                        <img src="img/cards_07.jpg" alt=""/>
+                                    </div>
+                                    <div class="sr">
+                                        中软融鑫2017年会暨20周年庆
+                                    </div>
                                 </div>
-                                <div class="sr">
-                                    中软融鑫2017年会暨20周年庆
-                                </div>
-                            </div>
+                            </a>
+
                             <ul class="ul-2">
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=10&&on=about">
-                                        <span>09.30</span>
+                                    <a target="_blank" href="./html/news_page.html?i=6&&on=about">
+                                        <span>11.07</span>
                                         <span>|</span>
-                                        <span>融鑫携AML& EAST3.0，首次合作蒙特利尔银行</span>
+                                        <span>项目管理集训营，教你如何一鸣惊人！</span>
                                     </a>
                                     <div class="hot">hot</div>
                                 </li>
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=11&&on=about">
-                                        <span>09.30</span>
+                                    <a target="_blank" href="./html/news_page.html?i=7&&on=about">
+                                        <span>11.07</span>
                                         <span>|</span>
-                                        <span>融鑫人力资源二期，中标国开新城</span>
+                                        <span>项目经理学习教程—系统测试如何做（下篇）</span>
                                     </a>
                                 </li>
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=12&&on=about">
-                                        <span>09.30</span>
+                                    <a target="_blank" href="./html/news_page.html?i=8&&on=about">
+                                        <span>10.24</span>
                                         <span>|</span>
-                                        <span>十一假期，中软融鑫客户联系方式通知</span>
+                                        <span>中软融鑫统一监管，再度合作TCL金融控股集团</span>
                                     </a>
                                 </li>
                             </ul>
@@ -666,8 +704,27 @@
         </div>
         <!--footer end-->
     </div>
+    
+    <div class="mask">
+        <span class="close">关闭</span>
+        <div class="img-container">
+            <img src="img/product-point.jpg" alt="" id="drag-img"/>
+        </div>
+
+    </div>
     <script>
         $(function(){
+
+            //拖拽
+            $('#drag-img').move();
+            $('#product-point').on('click',function () {
+                $('.mask').toggle();
+            })
+            $('.mask .close').on('click',function () {
+                $(this).parent().hide();
+            })
+
+
             new Slider(".rx-swiper");
             $(".section-lan li").click(function(){
                 var $eq  = $(this).index();
