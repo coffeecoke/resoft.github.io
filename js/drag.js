@@ -13,9 +13,8 @@
                 _winWidth = oThis.parent().width(),
                 _winHeight = oThis.parent().height();
             $(this).mousedown(function(e) {
-                console.log(_winHeight);
+                e.preventDefault();
                 _isMove = true;
-                console.log(e.clientX)
                 _x = e.clientX - parseInt($(this).css("left"));
                 _y = e.clientY - parseInt($(this).css("top"));
 //                    _x= e.offsetX;
@@ -23,6 +22,7 @@
 //                    console.log(e.clientX,e.clientY,_x,_y,_x1,_y1);
             });
             $(document).mousemove(function(e) {
+                e.preventDefault();
                 if( _isMove ) {
                     window.e ? window.e.returnValue = false : e.preventDefault();
                     var x = e.clientX - _x ;
