@@ -108,7 +108,7 @@ body {
   position: absolute;
   z-index: 10000;
   height: 135px;
-  width: 1200px;
+  width: 1160px;
   left: 50%;
   margin-left: -700px;
 }
@@ -151,6 +151,9 @@ body {
     opacity: 0.8;
     min-height: 520px;
     filter: alpha(opacity=80);
+  }
+  .public-top .top-ul .list-1 .ul-2 .list-2 {
+    width: 232px;
   }
   .public-top .top-ul .list-1 .about-ul-2 {
     width: auto;
