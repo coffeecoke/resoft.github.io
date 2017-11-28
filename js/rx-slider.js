@@ -52,7 +52,7 @@
             if(idx==0){
                 _this.slide.find(".span-box").css({
                     "bottom":_this.startB+"px",
-                    "opacity":0
+                    "opacity":1
                 });
             }else {
                 _this.slide.find(".span-box").css({
