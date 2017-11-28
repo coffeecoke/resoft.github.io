@@ -21,8 +21,8 @@
             <li class="list-1 pdt">
                 <span class="span-1">产品</span>
                 <div class="bottom-string"></div>
-                <div class="h-box" style="height: 500px">
-                    <p class="product-point-pictrue" id="product-point">2017年产品导向图</p>
+                <div class="h-box" style="height: 520px">
+                    <p class="product-point-pictrue" id="product-point">产品全向图</p>
                 </div>
                 <ul class="ul-2" style="">
                     <li class="list-2">
@@ -109,7 +109,7 @@
                         <span class="span-2"><a href="./tixi.html?on=about">业务体系</a></span>
                     </li>
                     <li class="list-2">
-                        <span class="span-2"><a href="./us_big_event.html?on=about">大事记</a></span>
+                        <span class="span-2"><a href="./us_big_event.html?on=about">发展历程</a></span>
                     </li>
                     <li class="list-2">
                         <span class="span-2"><a href="./contact_us.html?on=about">联系我们</a></span>
@@ -137,6 +137,9 @@
 <script src="../js/drag.js"></script>
 <script>
     $(function () {
+        $('.list-1').on('click hover',function () {
+            $(this).addClass('on').siblings().removeClass('on')
+        })
 
         //拖拽
         $('#drag-img').move();

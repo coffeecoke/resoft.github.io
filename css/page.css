@@ -3,6 +3,7 @@
   overflow: hidden;
   width: 100%;
   background: #fff;
+  min-width: 1200px;
   /*banner*/
   /**/
   /**/
@@ -742,7 +743,6 @@
   font-size: 36px;
   color: #ff5b1c ;
   line-height: 60px;
-  font-family: simhei;
 }
 .about_us .big-event-box .title-s {
   line-height: 26px;
@@ -799,7 +799,6 @@
 }
 .about_us .time-line-li .ts {
   font-size: 16px;
-  font-family: simhei;
   position: absolute;
   left: 42px;
   top: 40px;
@@ -825,7 +824,6 @@
 .news_page .new-box h2 {
   font-weight: normal;
   padding-top: 110px;
-  font-family: simhei;
 }
 .news_page .new-box .title-s {
   padding: 15px 0;
@@ -835,7 +833,6 @@
 .news_page .new-box .title-1 {
   font-weight: 800;
   font-size: 18px;
-  font-family: simhei;
   color: #eb4e22;
   line-height: 36px;
   padding: 10px 0;
@@ -1393,7 +1390,6 @@
   font-size: 36px;
   color: #ff5b1c;
   line-height: 60px;
-  font-family: simhei;
   text-align: center;
 }
 .product2-container.contact_us .contact_us_content .title-s {
@@ -1407,7 +1403,6 @@
 .product2-container.contact_us .contact_us_content .com-t {
   font-size: 22px;
   line-height: 80px;
-  font-family: simhei;
 }
 .product2-container.contact_us .contact_us_content table.card-table {
   width: 100%;
@@ -1438,7 +1433,6 @@
 }
 .product2-container.contact_us .contact_us_content .card-div .placename {
   font-size: 24px;
-  font-family: simhei;
   font-weight: 800;
   padding-top: 26px;
   line-height: 40px;
@@ -1446,7 +1440,6 @@
 .product2-container.contact_us .contact_us_content .card-div .company-name {
   line-height: 26px;
   font-size: 18px;
-  font-family: simhei;
 }
 .product2-container.contact_us .contact_us_content .card-div .ul-1 {
   padding-top: 20px;
@@ -1454,9 +1447,8 @@
 .product2-container.contact_us .contact_us_content .card-div .ul-1 li {
   line-height: 30px;
   font-size: 14px;
-  font-family: simhei;
 }
-/*��ҵ����2*/
+/*��ҵ���2*/
 .company2-container .ban-box {
   width: 100%;
   height: 469px;
@@ -1477,7 +1469,6 @@
   font-size: 28px;
   color: #000;
   text-align: center;
-  font-family: simhei;
   padding: 50px 0;
 }
 .company2-container .sk-box .p-1 {
@@ -1490,7 +1481,6 @@
 .company2-container .sk-box .institution-box .t {
   font-size: 18px;
   line-height: 50px;
-  font-family: simhei;
   padding-top: 40px;
   font-weight: 800;
 }
@@ -1514,12 +1504,10 @@
   color: #000;
   text-decoration: none;
   float: left;
-  font-family: simhei;
   height: 36px;
 }
 .company2-container .sk-box .institution-box .a-box span.shu {
   float: left;
-  font-family: simhei;
   font-size: 16px;
   color: #000;
   padding: 0 10px;
@@ -2826,11 +2814,11 @@
   font-family: "Microsoft Yahei";
 }
 .product2-container.tixi-container .card-box {
-  padding-top: 130px;
+  padding-top: 90px;
 }
 .product2-container.tixi-container .card {
-  width: 300px;
-  height: 360px;
+  width: 290px;
+  height: 200px;
   float: left;
 }
 .product2-container.tixi-container .card.c1 {
@@ -2858,11 +2846,12 @@
   background: url(../img/ti6_09.png) no-repeat top right;
 }
 .product2-container.tixi-container .content-box {
-  padding-top: 100px;
+  padding-top: 30px;
   width: 100%;
   overflow: hidden;
   padding-bottom: 170px;
   position: relative;
+  min-height: 870px;
 }
 .product2-container.tixi-container .content-box .img-1 {
   position: absolute;

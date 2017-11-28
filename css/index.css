@@ -172,6 +172,7 @@ a {
 .rx-container {
   width: 100%;
   position: relative;
+  min-width: 1200px;
   /*swiper*/
   /*swiper-end*/
   /*section-2*/
@@ -235,22 +236,81 @@ a {
   height: 78px;
   left: 50%;
   margin-left: -306px;
-  bottom: 40px;
+  bottom: 200px;
   background: url("../img/slide-z_03.png") no-repeat;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-2 .slide-2-con {
+  width: 1160px;
+  height: 469px;
+  position: absolute;
+  left: 50%;
+  margin-left: -580px;
 }
 .rx-container .rx-swiper .swiper-c .slide.slide-2 .bg-box {
   background: url("../img/banner02_bg.jpg") no-repeat center center;
 }
 .rx-container .rx-swiper .swiper-c .slide.slide-2 .f-box {
   background: url("../img/banner02.png") no-repeat center bottom;
+  left: 30%;
+  bottom: -20px;
 }
 .rx-container .rx-swiper .swiper-c .slide.slide-2 .span-box {
-  width: 613px;
-  height: 78px;
-  left: 50%;
-  margin-left: -306px;
-  bottom: 40px;
+  width: 513px;
+  height: 208px;
+  left: 50px;
+  margin-left: 0;
+  top: 50%;
+  margin-top: -104px;
   background: url("../img/banner02_test.png") no-repeat;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-3 .slide-3-con {
+  width: 1160px;
+  height: 469px;
+  position: absolute;
+  left: 50%;
+  margin-left: -580px;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-3 .bg-box {
+  background: url("../img/banner03_bg.jpg") no-repeat center center;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-3 .f-box {
+  background: url("../img/banner03.png") no-repeat center bottom;
+  left: 25%;
+  bottom: 14px;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-3 .span-box {
+  width: 514px;
+  height: 299px;
+  left: 50px;
+  margin-left: 0;
+  top: 50%;
+  margin-top: -131px;
+  background: url("../img/banner03_test.png") no-repeat;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-4 .slide-4-con {
+  width: 1160px;
+  height: 469px;
+  position: absolute;
+  left: 50%;
+  margin-left: -580px;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-4 .bg-box {
+  background: url("../img/banner04_bg.jpg") no-repeat center center;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-4 .f-box {
+  background: url("../img/banner04.png") no-repeat center bottom;
+  left: 25%;
+  bottom: 0px;
+}
+.rx-container .rx-swiper .swiper-c .slide.slide-4 .span-box {
+  width: 587px;
+  height: 262px;
+  left: 50px;
+  margin-left: 0;
+  /*bottom: 100px;*/
+  top: 50%;
+  margin-top: -131px;
+  background: url("../img/banner04_test.png") no-repeat;
 }
 .rx-container .rx-swiper .page-box {
   position: absolute;
@@ -401,13 +461,12 @@ a {
   width: 500px;
   text-align: left;
   float: right;
-  margin-right: 100px;
+  margin-right: 78px;
   margin-top: 57px;
 }
 .rx-container .section-2 .left-mode .p-div .p-1 {
   font-size: 30px;
   color: #fff;
-  font-family: simhei;
   padding-bottom: 24px;
 }
 .rx-container .section-2 .left-mode .p-div .p-2 {
@@ -597,7 +656,6 @@ a {
 .rx-container .ditu-box .p-2 {
   font-size: 14px;
   color: #000;
-  font-family: 'simsun';
   padding-top: 30px;
 }
 .rx-container .ditu-box .guo {
@@ -805,7 +863,7 @@ a {
 }
 .rx-container .news-ds .top .p-2 {
   padding-top: 20px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .rx-container .news-ds .bottom {
   width: 100%;
@@ -814,7 +872,7 @@ a {
 .rx-container .news-ds .bottom .ul-1 .list-1 {
   height: 420px;
   float: left;
-  width: 390px;
+  width: 380px;
   margin: 0 5px;
 }
 .rx-container .news-ds .bottom .ul-1 .list-1 .img-box {

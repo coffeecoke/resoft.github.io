@@ -16,6 +16,7 @@ body {
 /*top*/
 .public-top {
   width: 100%;
+  min-width: 1200px;
   position: absolute;
   z-index: 100;
   top: 0;
@@ -90,12 +91,17 @@ body {
 }
 .public-top .top-ul .list-1 .h-box p {
   position: absolute;
+  width: 200px;
+  height: 45px;
+  border: solid 1px #ffffff;
   text-align: center;
-  left: 1759px;
+  line-height: 45px;
+  left: 1825px;
   color: #fff;
   bottom: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .public-top .top-ul .list-1 .ul-2 {
   display: none;
@@ -108,15 +114,19 @@ body {
 }
 .public-top .top-ul .list-1 .ul-2 .list-2 {
   float: left;
-  padding-top: 17px;
+  /* padding-top: 17px;*/
   width: 240px;
   text-align: left;
   font-size: 16px;
   color: #fff;
   font-family: "Microsoft Yahei";
 }
+.public-top .top-ul .list-1 .ul-2#about-ul {
+  padding-top: 15px;
+  margin-left: -600px;
+}
 .public-top .top-ul .list-1 .ul-2#about-ul .list-2 {
-  width: 140px;
+  width: 150px;
 }
 .public-top .top-ul .list-1:hover .span-1 {
   color: #eb4b24;
@@ -171,7 +181,7 @@ body {
 }
 .rx-footer .top .logs {
   float: left;
-  margin-left: 80px;
+  margin-left: 20px;
   margin-top: 60px;
 }
 .rx-footer .m {
@@ -182,7 +192,7 @@ body {
   width: 600px;
   height: 200px;
   float: left;
-  margin-left: 84px;
+  margin-left: 24px;
 }
 .rx-footer .f-left .to {
   width: 100%;
@@ -213,6 +223,11 @@ body {
   width: 200px;
   height: 200px;
   float: left;
+}
+.rx-footer .f-right img {
+  display: block;
+  width: 88px;
+  height: 88px;
 }
 .rx-footer table {
   width: 600px;
@@ -260,7 +275,6 @@ body {
   padding: 0 15px;
   height: 64px;
   line-height: 65px;
-  font-family: simhei;
   font-size: 18px;
   color: #000;
   border-bottom: 1px solid #ddd;

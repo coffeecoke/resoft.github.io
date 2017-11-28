@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="edge"/>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />-->
     <meta name="Keywords" content="中软融鑫,融鑫,北京中软融鑫计算机系统工程有限公司"/>
     <meta name="description" content="中软融鑫(RESOFT)全称北京中软融鑫计算机系统工程有限公司，为中软集团旗下金融方向子公司。1996年，中软总公司金融电子化事业部经股份制改造，成立中软融鑫。作为国内最早从事金融领域软件开发、系统集成、产品代理、技术服务的专业化服务商之一，中软融鑫如今已发展成为金融领域领先的专业化软件服务商之一。"/>
     <link rel="stylesheet" href="css/common.css"/>
@@ -13,6 +14,12 @@
     <script src="js/Bubble.js"></script>
     <script src="js/drag.js"></script>
     <title>北京中软融鑫计算机系统工程有限公司</title>
+    <style>
+        .ww{
+            width: 1200px;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="rx-container">
@@ -36,8 +43,8 @@
                     <li class="list-1 pdt">
                         <span class="span-1">产品</span>
                         <div class="bottom-string"></div>
-                        <div class="h-box" style="height: 500px">
-                            <p class="product-point-pictrue" id="product-point">2017年产品导向图</p>
+                        <div class="h-box" style="height: 520px">
+                            <p class="product-point-pictrue" id="product-point">产品全向图</p>
                         </div>
                         <ul class="ul-2" style="">
                             <li class="list-2">
@@ -123,7 +130,7 @@
                                 <span class="span-2"><a href="./html/tixi.html?on=about">业务体系</a></span>
                             </li>
                             <li class="list-2">
-                                <span class="span-2"><a href="./html/us_big_event.html?on=about">大事记</a></span>
+                                <span class="span-2"><a href="./html/us_big_event.html?on=about">发展历程</a></span>
                             </li>
                             <li class="list-2">
                                 <span class="span-2"><a href="./html/contact_us.html?on=about">联系我们</a></span>
@@ -155,29 +162,26 @@
                 </div>
                 <div class="slide slide-2">
                     <div class="bg-box"></div>
-                    <div class="f-box"></div>
-                    <div class="span-box"></div>
+                    <div class="slide-2-con">
+                        <div class="f-box"></div>
+                        <a href="html/p_12.html?on=pdt"><div class="span-box"></div></a>
+                    </div>
                 </div>
-               <div class="slide slide-1">
+               <div class="slide slide-3">
                     <div class="bg-box"></div>
-                    <div class="f-box"></div>
-                    <div class="span-box"></div>
+                    <div class="slide-3-con">
+                        <div class="f-box"></div>
+                        <a href="html/p_6_yujing.html?on=pdt"><div class="span-box"></div></a>
+                    </div>
                 </div>
-                <div class="slide slide-1">
+                <div class="slide slide-4">
                     <div class="bg-box"></div>
-                    <div class="f-box"></div>
-                    <div class="span-box"></div>
+                    <div class="slide-4-con">
+                        <div class="f-box"></div>
+                        <a href="html/p_17.html?on=pdt"><div class="span-box"></div></a>
+                    </div>
                 </div>
-                <div class="slide slide-1">
-                    <div class="bg-box"></div>
-                    <div class="f-box"></div>
-                    <div class="span-box"></div>
-                </div>
-                <div class="slide slide-1">
-                    <div class="bg-box"></div>
-                    <div class="f-box"></div>
-                    <div class="span-box"></div>
-                </div>
+
             </div>
             <div class="page-box">
 
@@ -210,7 +214,7 @@
                         <p class="p-1">产品专业全面  助力业务成长</p>
                         <p class="p-2">全程服务、快速响应、专业贴心。提供全方位指导</p>
                         <div class="p-btn">
-                            <a href="####"> 了解更多产品</a>
+                            <a href="####" id="drag-btn"> 了解更多产品</a>
                         </div>
                     </div>
                 </div>
@@ -600,32 +604,32 @@
                             <ul class="ul-2">
 
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=0&&on=about">
-                                        <span>11.23</span>
-                                        <span>|</span>
-                                        <span>感恩节，融鑫有话对你说！</span>
-                                    </a>
-
-                                    <div class="hot">hot</div>
-
-                                </li>
-
-                                <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=1&&on=about">
-                                        <span>11.23</span>
-                                        <span>|</span>
-                                        <span>项目经理学习教程—培训与部署、上线试运行如何做</span>
-                                    </a>
-
-
-
-                                </li>
-
-                                <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=2&&on=about">
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=3">
                                         <span>11.23</span>
                                         <span>|</span>
                                         <span>监管报送系统更新，赶紧来看看！</span>
+                                    </a>
+
+                                   <!-- <div class="hot">hot</div>-->
+
+                                </li>
+
+                                <li class="list-2">
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=4">
+                                        <span>11.23</span>
+                                        <span>|</span>
+                                        <span>项目经理学习教程--培训与部署如何做</span>
+                                    </a>
+
+
+
+                                </li>
+
+                                <li class="list-2">
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=6">
+                                        <span>11.07</span>
+                                        <span>|</span>
+                                        <span>项目管理集训营，叫你如何一鸣惊人！</span>
                                     </a>
 
 
@@ -648,24 +652,24 @@
                             <ul class="ul-2">
                                 <li class="list-2">
                                     <a target="_blank" href="./html/news_page.html?i=3&&on=about">
-                                        <span>11.23</span>
+                                        <span>11.07</span>
                                         <span>|</span>
-                                        <span> 融鑫携“大集中”，首牵陕西能源财务公司</span>
+                                        <span> 项目经理学习教程--系统测试如何做（下篇）</span>
                                     </a>
-                                    <div class="hot">hot</div>
+                                    <!--<div class="hot">hot</div>-->
                                 </li>
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=4&&on=about">
-                                        <span>11.23</span>
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=7">
+                                        <span>10.24</span>
                                         <span>|</span>
-                                        <span>中软融鑫“三箭齐发”， 首次合作外高桥财务公司</span>
+                                        <span>项目经理学习教程--系统测试如何做（下篇）</span>
                                     </a>
                                 </li>
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=5&&on=about">
-                                        <span>11.23</span>
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=8">
+                                        <span>10.24</span>
                                         <span>|</span>
-                                        <span>融鑫携理财直联系统，再度合作渤海银行</span>
+                                        <span>中软融鑫携统一监管系统，在读合作TCL金融控...</span>
                                     </a>
                                 </li>
                             </ul>
@@ -684,25 +688,25 @@
 
                             <ul class="ul-2">
                                 <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=6&&on=about">
-                                        <span>11.07</span>
-                                        <span>|</span>
-                                        <span>项目管理集训营，教你如何一鸣惊人！</span>
-                                    </a>
-                                    <div class="hot">hot</div>
-                                </li>
-                                <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=7&&on=about">
-                                        <span>11.07</span>
-                                        <span>|</span>
-                                        <span>项目经理学习教程—系统测试如何做（下篇）</span>
-                                    </a>
-                                </li>
-                                <li class="list-2">
-                                    <a target="_blank" href="./html/news_page.html?i=8&&on=about">
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=9">
                                         <span>10.24</span>
                                         <span>|</span>
-                                        <span>中软融鑫统一监管，再度合作TCL金融控股集团</span>
+                                        <span>继上海银监局针对财务公司EAST系统数据...</span>
+                                    </a>
+                                   <!-- <div class="hot">hot</div>-->
+                                </li>
+                                <li class="list-2">
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=10">
+                                        <span>10.24</span>
+                                        <span>|</span>
+                                        <span>融鑫携JAVAOA，首次合作玉山银行</span>
+                                    </a>
+                                </li>
+                                <li class="list-2">
+                                    <a target="_blank" href="./html/news_page.html?on=about&&i=11">
+                                        <span>10.24</span>
+                                        <span>|</span>
+                                        <span>项目经理学习教程—系统测试如何做（上篇）</span>
                                     </a>
                                 </li>
                             </ul>
@@ -721,7 +725,7 @@
                 <div class="m">
                     <div class="f-left">
                         <div class="to">
-                            <div class="t">  <a href="####">产品全像图</a></div>
+                            <div class="t">  <a href="####" id="foot-product">产品全向图</a></div>
                             <div class="t">  <a href="./html/zhichi.html?on=zhichi">支持</a></div>
                             <div class="t"> <a href="./html/us_care_rx.html?on=about">
                                 关于我们
@@ -754,15 +758,24 @@
     </div>
     <script>
         $(function(){
-
+            $('.list-1').on('click',function () {
+                $(this).addClass('on').siblings().removeClass('on')
+            })
             //拖拽
             $('#drag-img').move();
+            //$("#drag-btn").move();
             $('#product-point').on('click',function () {
                 $('.mask').toggle();
-            })
+            });
+            $('#drag-btn').on('click',function () {
+                $('.mask').toggle();
+            });
+            $("#foot-product").on('click',function () {
+                $('.mask').toggle();
+            });
             $('.mask .close').on('click',function () {
                 $(this).parent().hide();
-            })
+            });
 
 
             new Slider(".rx-swiper");

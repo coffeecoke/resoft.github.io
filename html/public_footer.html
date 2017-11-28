@@ -12,7 +12,7 @@
     <div class="m">
         <div class="f-left">
             <div class="to">
-                <div class="t">  <a href="####">产品全像图</a></div>
+                <div class="t">  <a href="####" id="f-product">产品全向图</a></div>
                 <div class="t">  <a href="./zhichi.html?on=zhichi">支持</a></div>
                 <div class="t"> <a href="./us_care_rx.html?on=about">
                     关于我们
@@ -32,5 +32,18 @@
 
     </div>
 </div>
+<script>
+    $(function () {
+        //拖拽
+        $('#drag-img').move();
+
+        $("#f-product").on('click',function () {
+            $('.mask').toggle();
+        });
+        $('.mask .close').on('click',function () {
+            $(this).parent().hide();
+        });
+    })
+</script>
 </body>
 </html>

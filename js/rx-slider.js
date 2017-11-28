@@ -8,7 +8,7 @@
         this.pageBox = this.dom.find(".page-box");
         this.slideLength = this.slide.length;//轮播个数
         this.start = 0;
-        this.speed = 8000;
+        this.speed = 4000;
         this.timer = null;//轮播定时器
         this.startB = 40;//字体初始bottom值
         this.endB =220;
@@ -46,21 +46,35 @@
         },
         swiper:function(idx){
             var _this = this;
-
+            console.log(idx);
             _this.slide.hide().find(".bg-box,.f-box,.span-box").hide();
             var $now =  _this.slide.eq(idx);
-            _this.slide.find(".span-box").css({
-                "bottom":_this.startB+"px",
-                "opacity":0
-            });
-            _this.pageBox.find("li").eq(idx).addClass('ac').siblings().removeClass("ac");
-            $now.show().find(".bg-box").fadeIn(800,function() {
-                $now.find(".f-box").fadeIn(1600,function () {
+            if(idx==0){
+                _this.slide.find(".span-box").css({
+                    "bottom":_this.startB+"px",
+                    //"opacity":0
+                });
+            }else {
+                _this.slide.find(".span-box").css({
+                    //"bottom":_this.startB+"px",
+                    "opacity":0
+                });
+            }
 
-                    $now.find(".span-box").show().animate({
-                        "bottom":_this.endB+'px',
-                        "opacity":1
-                    },2000);
+            _this.pageBox.find("li").eq(idx).addClass('ac').siblings().removeClass("ac");
+            $now.show().find(".bg-box").fadeIn(300,function() {
+                $now.find(".f-box").fadeIn(600,function () {
+                    if(idx==0){
+                        $now.find(".span-box").show().animate({
+                            "bottom":_this.endB+'px',
+                            //"opacity":1
+                        },800);
+                    }else {
+                        $now.find(".span-box").show().animate({
+                            //"bottom":_this.endB+'px',
+                            "opacity":1
+                        },800);
+                    }
 
 
 
