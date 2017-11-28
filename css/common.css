@@ -141,6 +141,22 @@ body {
 .public-top .top-ul .list-1.on .span-1 {
   color: #eb4b24;
 }
+@media screen and (max-width: 1000px) {
+  .public-top .top-ul .list-1 .h-box {
+    width: auto;
+  }
+  .public-top .top-ul .list-1 .ul-2 {
+    background: #312f2e;
+    display: none;
+    opacity: 0.8;
+    min-height: 520px;
+    filter: alpha(opacity=80);
+  }
+  .public-top .top-ul .list-1 .about-ul-2 {
+    width: auto;
+    min-height: 150px;
+  }
+}
 .public-top .top-ul .span-2 {
   font-size: 14px;
   color: #fff;
