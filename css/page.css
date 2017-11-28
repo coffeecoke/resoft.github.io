@@ -126,6 +126,7 @@
 }
 .product2-container .detail-box {
   width: 100%;
+  padding-top: 30px;
   /*产品特点*/
 }
 .product2-container .detail-box .mode {
@@ -468,7 +469,7 @@
 }
 .xy-oa-container {
   /*CHA��Ʒ�ص�*/
-  /*�����ֵ*/
+  /*������ֵ*/
 }
 .xy-oa-container .oa-gong-box {
   position: relative;
@@ -897,7 +898,6 @@
   color: #000;
 }
 .news_list .new-list-box .list-ul li .th-s {
-  font-family: simhei;
   font-size: 18px;
   color: #000;
 }
@@ -911,7 +911,7 @@
   line-height: 22px;
   width: 730px;
   padding-top: 10px;
-  color: #000;
+  color: #666;
   height: 44px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -923,7 +923,7 @@
   font-size: 14px;
   line-height: 22px;
   padding-top: 20px;
-  color: #000;
+  color: #999;
 }
 .news_list .new-list-box .list-ul li:hover {
   background: #ffeee8;
@@ -1456,7 +1456,7 @@
   font-size: 14px;
   font-family: simhei;
 }
-/*��ҵ���2*/
+/*��ҵ����2*/
 .company2-container .ban-box {
   width: 100%;
   height: 469px;
@@ -1546,7 +1546,7 @@
   margin: 0 auto;
   font-size: 16px;
 }
-/*������п��羳���׷���*/
+/*�������п��羳���׷���*/
 .p10-container .banner-2 {
   background: #39d18e url(../img/p10_02.jpg) no-repeat center bottom;
 }
@@ -1570,7 +1570,7 @@
 .p10-container .gong-table.youshi-table .g3 {
   background: url(../img/sdft_07.jpg) no-repeat;
 }
-/*��ҵȫ����չ�����Ϣϵͳ*/
+/*��ҵȫ�����չ�����Ϣϵͳ*/
 .p26-container .banner-2 {
   background: #ff7e00 url(../img/psd_02.jpg) no-repeat center bottom;
 }
@@ -1832,7 +1832,7 @@
 .p9-container .img-box {
   text-align: center;
 }
-/*����������ݱ�׼��*/
+/*�������������ݱ�׼��*/
 .p11-container .banner-2 {
   background: #39d18e url(../img/p1as_02.jpg) no-repeat center bottom;
 }
@@ -1875,7 +1875,7 @@
 .p11-container .gong-table.p11-table-1 .g4 {
   background: url(../img/p11saz_09.jpg) no-repeat center center;
 }
-/*��ϴǮ���ƽ̨*/
+/*��ϴǮ����ƽ̨*/
 .p12-container .banner-2 {
   background: #39d18e url(../img/p12ban_02.jpg) no-repeat center bottom;
 }
@@ -1897,7 +1897,7 @@
   padding-top: 10px;
   text-align: center;
 }
-/*������߹���ϵͳ*/
+/*�������߹���ϵͳ*/
 .p14-container .banner-2 {
   background: #f3b81c url(../img/p14sdfs_02.jpg) no-repeat center bottom;
 }
@@ -1974,7 +1974,7 @@
   left: 160px;
 }
 /*
-Ͷ��ҵ�����ϵͳ
+Ͷ��ҵ������ϵͳ
 */
 .p25-container .banner-2 {
   background: #dc3429 url(../img/p25ds_03.jpg) no-repeat center bottom;
@@ -2036,7 +2036,7 @@
   left: 10px;
 }
 /*
-�Ϲ���չ���ƽ̨
+�Ϲ����չ���ƽ̨
 */
 .p23-container .banner-2 {
   background: #ff7e00 url(../img/p23asds_02.jpg) no-repeat center bottom;
@@ -2202,24 +2202,25 @@
 .p19-container .gong-table.p19-gong-table ul li.zi {
   padding: 20px 30px 10px 30px;
   color: #000;
+  font-size: 14px;
 }
 .p19-container .gong-table.p19-gong-table .g1 {
-  background: url(../img/p19sadf_36.jpg) no-repeat center center;
+  background: url(../img/p19sadf_36.png) no-repeat center center;
 }
 .p19-container .gong-table.p19-gong-table .g2 {
-  background: url(../img/p19sadf_39.jpg) no-repeat center center;
+  background: url(../img/p19sadf_39.png) no-repeat center center;
 }
 .p19-container .gong-table.p19-gong-table .g3 {
-  background: url(../img/p19sadf_41.jpg) no-repeat center center;
+  background: url(../img/p19sadf_41.png) no-repeat center center;
 }
 .p19-container .gong-table.p19-gong-table .g4 {
-  background: url(../img/p19sadf_47.jpg) no-repeat center center;
+  background: url(../img/p19sadf_47.png) no-repeat center center;
 }
 .p19-container .gong-table.p19-gong-table .g5 {
-  background: url(../img/p19sadf_48.jpg) no-repeat center center;
+  background: url(../img/p19sadf_48.png) no-repeat center center;
 }
 .p19-container .gong-table.p19-gong-table .g6 {
-  background: url(../img/p19sadf_50.jpg) no-repeat center center;
+  background: url(../img/p19sadf_50.png) no-repeat center center;
 }
 /*
 �ƶ�����ƽ̨
@@ -2555,7 +2556,7 @@
   padding: 0;
 }
 .wldk-product28-container .gong-table.hang3 ul {
-  width: 230px;
+  width: 224px;
   padding: 0 33px;
 }
 .wldk-product28-container .gong-table ul {
@@ -2595,7 +2596,7 @@
   float: left;
   width: 230px;
   height: 80px;
-  margin: 8px 35px;
+  margin: 8px 30px;
   overflow: hidden;
 }
 .wldk-product28-container .p28-dianxinganli li img {
@@ -2609,7 +2610,7 @@
   padding: 0;
 }
 .wldk-product29-container .gong-table.hang3 ul {
-  width: 230px;
+  width: 224px;
   padding: 0 33px;
 }
 .wldk-product29-container .gong-table-title {
@@ -2617,7 +2618,8 @@
   font-weight: 500;
   color: #ff9600;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 .wldk-product29-container .gong-table ul {
   min-height: 310px;
@@ -2678,7 +2680,7 @@
 }
 .wldk-product29-container .gong-table-fwys.hang3 ul {
   width: 310px;
-  padding: 0 45px;
+  padding: 0 38px;
   min-height: 360px;
 }
 .wldk-product29-container .gong-table-fwys.hang3 ul .img-g {
@@ -2702,7 +2704,7 @@
   float: left;
   width: 210px;
   height: 90px;
-  margin: 10px 15px;
+  margin: 10px 11px;
   overflow: hidden;
 }
 .wldk-product29-container .p29-wmdkh li img {
@@ -2716,10 +2718,11 @@
   font-size: 14px;
   color: #333333;
   text-indent: 24px;
+  padding-bottom: 20px;
 }
 .p30-container .gong-table.p30-table ul {
   width: 280px;
-  padding: 0 50px;
+  padding: 0 43px;
   min-height: 280px;
 }
 .p30-container .gong-table.p30-table ul li {
@@ -2891,6 +2894,9 @@
 .air-oa-container .banner-2 {
   background: #f2b81c url(../img/air-oa-banner-bg.jpg) no-repeat center bottom;
 }
+.air-oa-container .gong-table-1 .box .right .name {
+  color: #f3b81c;
+}
 .air-oa-container .air-oa-table ul {
   min-height: 500px;
 }
@@ -2953,6 +2959,20 @@
 .air-oa-container .gong-table-1 .box .left {
   height: 200px;
 }
+.air-oa-container .air-oa-table-5 ul {
+  min-height: 300px;
+}
+.air-oa-container .air-oa-table .g3 {
+  background-position: center center;
+}
+.air-oa-container .gong-table-1 .box .left {
+  width: 150px;
+}
+.air-oa-container .air-oa-table-2 ul li .img-g {
+  width: 210px;
+  height: 160px;
+  background-position: center center;
+}
 .tjjg-platform-container .banner-2 {
   background: #dd3429 url(../img/tjjg-platform-banner.jpg) no-repeat center bottom;
 }
@@ -2981,11 +3001,15 @@
   font-weight: normal;
   margin-bottom: 20px;
 }
-.tjjg-platform-container .tjgl-platform-list dl ul {
+.tjjg-platform-container .tjgl-platform-list dl ul li {
   color: #666;
   font-size: 14px;
 }
 .tjjg-platform-container .tjgl-platform-list dl li {
   padding-left: 30px;
-  background: url("../img/red-blue-circle-icon.jpg") 0px center no-repeat;
+  background: url("../img/red-blue-circle-icon.jpg") 0px 4px no-repeat;
+}
+.tjjg-platform-container .tjgl-platform-list dl p {
+  color: #666;
+  font-size: 14px;
 }

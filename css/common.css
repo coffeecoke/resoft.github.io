@@ -1,6 +1,7 @@
 /*common*/
 body {
   overflow-x: hidden;
+  -moz-user-select: none;
 }
 .bottom-h {
   width: 100%;
@@ -9,6 +10,8 @@ body {
 .ww {
   margin: 0 auto;
   width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 /*top*/
 .public-top {
@@ -99,7 +102,9 @@ body {
   position: absolute;
   z-index: 10000;
   height: 135px;
-  width: 600px;
+  width: 1200px;
+  left: 50%;
+  margin-left: -700px;
 }
 .public-top .top-ul .list-1 .ul-2 .list-2 {
   float: left;
@@ -300,8 +305,8 @@ body {
   height: 76px;
   line-height: 76px;
   font-size: 36px;
-  font-family: simhei;
   color: #000;
+  margin-bottom: 20px;
 }
 .b-title-s {
   font-size: 20px;
@@ -387,7 +392,7 @@ body {
 }
 .gong-table ul {
   float: left;
-  width: 230px;
+  width: 220px;
   padding: 0 30px;
   min-height: 400px;
 }
@@ -405,7 +410,7 @@ body {
   padding: 20px 0 10px 0;
   font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei", "\5B8B\4F53";
   font-size: 16px;
-  font-weight: 800;
+  /*font-weight: 800;*/
 }
 .gong-table ul li p {
   margin: 0 auto;
@@ -420,7 +425,7 @@ body {
 }
 .gong-table.hang3 ul {
   width: 290px;
-  padding: 0 45px;
+  padding: 0 38px;
 }
 /**/
 .gong-table-1 {
@@ -429,7 +434,7 @@ body {
 .gong-table-1 .box {
   margin-top: 30px;
   min-height: 400px;
-  width: 520px;
+  width: 500px;
   float: left;
   padding: 0 40px;
 }
@@ -540,7 +545,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 50px 20px 20px 20px;
+  /*padding:50px 20px 20px 20px;*/
   z-index: 1000;
   display: none;
   background: rgba(0, 0, 0, 0.6);
@@ -552,6 +557,7 @@ body {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  z-index: 99999;
 }
 .mask .img-container {
   width: 100%;
