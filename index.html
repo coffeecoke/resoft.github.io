@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>《鑫声》第七期</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="page/page8/css/main.css"/>
+    <style>
+        .slide .slide__bg {
+            position: absolute;
+            left:0;
+            top:0;
+        }
+        .video-mask {
+            position: absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            z-index:1;
+        }
+        .video-mask video {
+            display: block;
+            width:100%;
+            height:100%;
+
+            object-fit: fill;
+
+        }
+        .video-mask {
+            background: url("images/fengmian-bg.jpg") center no-repeat;
+            background-size:cover;
+            z-index:20;
+        }
+        .fengmian-mask {
+            position: absolute;
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            background-size: 100% auto;
+            z-index:100;
+            background-color: #fff;
+        }
+        .fengmian-mask img {
+            position: absolute;
+            width:100%;
+            height:100%;
+        }
+        .fengmian-mask .bottom {
+            z-index: 1;
+        }
+        .wrapper {
+            position: relative;
+            width:100%;
+            height:100%;
+            overflow: hidden;
+        }
+        .title-min-list {
+            position:absolute;
+            top:0px;
+            left:0px;
+            z-index:10;
+            width:100%;
+            height:100%;
+            
+        }
+        .title-min-list img {
+            width:100%;
+        }
+        .hide1 {
+            display: none;
+        }
+        /*.slide__content img {*/
+        		/*display:none;*/
+        	/*}*/
+        	/*.title-lists,.title-min-list,.page-nums,.slider-pagi-wrapper,.play-img{*/
+        		/*display:none;*/
+        	/*}*/
+    </style>
+
+</head>
+
+<body>
+<div class="wrapper">
+
+
+<div class="slider-container">
+    <!--<div class="slider-control left inactive"></div>-->
+    <!--<div class="slider-control right"></div>-->
+
+    <ul class="title-lists" >
+        <li class="active">
+            <img src="images/main-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/wfz-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/hl-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/cwj-title.png" alt=""/>
+        </li>
+        <li>
+            <img src="images/ljt-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/sh-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/wct-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/zxd-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/gxt-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/cb-title.png" alt="" />
+        </li>
+        <li>
+            <img src="images/stf-title.png" alt="" />
+        </li>
+        <li>
+
+            <img src="images/yc-title.png" alt="" />
+        </li>
+
+        <li>
+
+            <img src="images/yj-title.png" alt="" />
+        </li>
+        <li>
+
+            <img src="images/txl-title.png" alt="" />
+        </li>
+    </ul>
+
+    <!-- 右下角圆点滚动-->
+    <div class="slider-pagi-wrapper">
+        <div class="slider-pagi-container">
+            <ul class="slider-pagi">
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- 列表页滑动-->
+    <div class="slider" id="slider">
+        <div class="slide slide-0 active" data-url="main.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-1" data-url="wfz.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <!-- 朋友圈-->
+        <div class="slide slide-2" data-url="hl.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-3" data-url="cwj.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-4" data-url="ljt.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-5" data-url="sh.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-6" data-url="wzt.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-7" data-url="zxd.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-8" data-url="gxt.html">
+            <div class="slide__bg">
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-9" data-url="cb.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-10" data-url="stf.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-11" data-url="yc.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-12" data-url="yj.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+        <div class="slide slide-13" data-url="txl.html">
+            <div class="slide__bg">
+
+            </div>
+            <div class="slide__content">
+            </div>
+        </div>
+    </div>
+
+    <!-- 列表页播放图标-->
+    <img src="images/play-icon.png" alt="" class="play-img"/>
+    <!-- 页脚页码-->
+    <div class="page-nums">
+        <span class="page-num">1</span>/<span>14</span>
+    </div>
+
+
+    <!--<div class='video-mask'>-->
+        <!--<video  preload autoplay id="maskVideo" x5-video-player-type="h5" x-webkit-airplay="true" playsinline webkit-playsinline x5-video-player-fullscreen="true" src='medias/fengmian-new.mp4'>-->
+        <!--</video>-->
+    <!--</div>-->
+
+</div>
+<div class="fengmian-mask">
+    <img src="images/fengmian-bg.jpg" alt="" class="top hide1">
+    <img src="images/fengmian-title.png" alt="" class="bottom hide1">
+</div>
+
+<!--详情页列表-->
+<div class="chatview" id="chatview">
+    <img src="images/close-icon.png" alt="" style="position: absolute;top:20px;right:20px;width:50px;z-index:1" id="close-icon"/>
+    <div class="chatview-item chatview-item1"></div>
+    <div class="chatview-item chatview-item2"></div>
+    <div class="chatview-item chatview-item3"></div>
+    <div class="chatview-item chatview-item4"></div>
+    <div class="chatview-item chatview-item5"></div>
+    <div class="chatview-item chatview-item6"></div>
+    <div class="chatview-item chatview-item7"></div>
+    <div class="chatview-item chatview-item8"></div>
+    <div class="chatview-item chatview-item9"></div>
+    <div class="chatview-item chatview-item10"></div>
+    <div class="chatview-item chatview-item11"></div>
+    <div class="chatview-item chatview-item12"></div>
+    <div class="chatview-item chatview-item13"></div>
+    <div class="chatview-item chatview-item14"></div>
+
+
+</div>
+
+
+<!--背景音乐-->
+<!--<audio src="medias/background-music.mp4" autoplay  style="display: none;z-index:-1" id="background-music"></audio>-->
+</div>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="http://weixin.chinaresoft.com/resoftwechat/pages/common/js/share.js"></script>
+<script src="js/index.js"></script>
+
+<script>
+    title = '鑫声杂志第八期'; // 分享标题
+    desc = ''; // 分享描述
+    link = 'http://weixin.chinaresoft.com/resoftwechat/pages/ResoftMGZ2017123108/index.html'; // 分享链接
+    imgUrl = 'http://weixin.chinaresoft.com/resoftwechat/pages/ResoftMGZ20171203108/images/share.png'; // 分享图标
+
+		
+    $(function () {
+        $.post("http://weixin.chinaresoft.com/resoftwechat/wc/magazine/RWA_updateUIMagazineViewLog?uimgzSN=2018Y(01-02)M08I", null, function(result){});
+    });
+    var chatview = $('#chatview');
+    var chatviewItem = $('#chatview .chatview-item');
+    var bg;
+    var linkSrc;
+    var $slides = $('#slider .slide');
+    var $titleLists = $('.title-lists li');
+
+
+    var canTouchMove = false;
+    var isClickFengmian = false;
+    var isoverMove = false; //滑动结束时的回调
+    var history = window.history;
+
+    $(function(){
+
+
+//        audioAutoPlay('background-music');
+//        timer();
+
+    })
+
+//    $('#slider .slide').each(function(index,ele){
+//        var linkSrc = $(this).data('url');
+//        chatviewItem.eq(index).load(linkSrc);
+//    })
+    $('.fengmian-mask').on('click',function(){
+//        $(this).hide();
+//        $('.title-lists,.title-min-list,.page-nums,.slider-pagi-wrapper,.play-img').show();
+//        canTouchMove = true;
+//        isClickFengmian = true;
+        var time1 = setTimeout(function () {
+            $('.fengmian-mask').hide();
+            clearTimeout(time1);
+        },320)
+
+    })
+
+    //点击列表弹出详情页
+    $('#slider .slide,.title-lists li').on('click', function () {
+        var index = $(this).index();
+        var $currentSlide = $slides.eq(index);
+        bg = $currentSlide.find('.slide__bg');
+        linkSrc = $currentSlide.data('url');
+
+        popPage(index);
+        addHistory(index)
+    })
+    $('#close-icon').on('click',function(){
+        history.replaceState({id: ''}, "", window.location.href.split("#")[0] + "");
+        closePage();
+        closeDetailAudio();
+
+    });
+
+    function timer(){
+//        //当以封面视频播放结束时
+//        var is_playFinish = setInterval(function(){
+//            if($('#maskVideo')[0].ended){
+//                fengmianCloseCb();
+//                clearInterval(is_playFinish)
+//            }
+//        },30);
+
+        var timer1 = setTimeout(function () {
+            $('.fengmian-mask').hide();
+            clearTimeout(timer1)
+        },4000)
+    }
+//    function fengmianCloseCb() {
+//        $('.fengmian-mask').hide();
+//        $('.video-mask').hide();
+//    }
+
+
+    //解决移动端 视频，音频 不能自动播放的问题
+    function audioAutoPlay(id){
+
+        var audio = document.getElementById(id);
+        var play = function(){
+            audio.play();
+
+            document.removeEventListener("touchstart",play, false);
+        };
+        audio.play();
+        document.addEventListener("WeixinJSBridgeReady", function () {
+            play();
+        }, false);
+        document.addEventListener('YixinJSBridgeReady', function() {
+            play();
+        }, false);
+        document.addEventListener("touchstart",play, false);
+    }
+
+
+    function touchendCb(curSlide) {
+
+        $titleLists.eq(curSlide).fadeIn().siblings().fadeOut();
+        $('.page-num').text(curSlide+1);
+
+        //滑动结束，页面上追加小标题；
+    }
+
+
+
+    function popPage(index) {
+        chatviewItem.eq(index).load(linkSrc, function () {
+            chatviewItem.eq(index).show().siblings('.chatview-item').hide();
+            chatview.addClass('chatview-animate');
+
+        })
+
+
+    }
+
+    function closePage(index) {
+        chatview.removeClass('chatview-animate');
+        $('#chatview').scrollTop(0);
+        closeDetailAudio();
+    }
+
+    function closeDetailAudio() {
+
+        $('.imgs-container audio').each(function(index,ele){
+            ele.pause();//关闭页面时，关闭音频
+        });
+    }
+
+
+    //路由模块
+    // onpopstate可以监控state变化
+    if (history.pushState) {
+        window.onload = function () {
+
+            if (!history.state) {
+                history.replaceState({id: ''}, "", window.location.href.split("#")[0] + "");
+
+            } else {
+                var state = history.state;
+
+                if (state.id) {
+                    popPage(state.id - 1, state.linkSrc);
+                }
+            }
+
+        }
+        window.onpopstate = function (e) {
+            var state = history.state;
+            if (!state)return;
+            if (!state.id) {
+                console.log(state.id)
+                history.replaceState({"id": state.id}, "", window.location.href.split("#")[0] + "");
+                closePage();
+            } else {
+                popPage(state.id - 1);
+            }
+
+        }
+    }
+    function addHistory(id, linkSrc) {
+        var id = parseInt(id) + 1;
+        history.pushState({"id": id, 'linkSrc': linkSrc}, "", window.location.href + "#page=" + id);
+    }
+
+
+    //详情页头图动画
+    function thAnimate(ele,removeClass,addClass,delay){
+        setTimeout(function(){
+            $(ele).removeClass(removeClass).addClass(addClass)
+        },delay)
+    }
+
+    thAnimate('.fengmian-mask .top','hide1','animated fadeInDown',600);
+    thAnimate('.fengmian-mask .bottom','hide1','animated fadeIn',800);
+
+</script>
+</body>
+</html>
