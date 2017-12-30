@@ -420,7 +420,7 @@
         chatviewItem.eq(index).load(linkSrc, function () {
             chatviewItem.eq(index).show().siblings('.chatview-item').hide();
             chatview.addClass('chatview-animate');
-
+            thAnimate('.title-img','hide1','animated fadeIn',600);
         })
 
 
@@ -483,8 +483,12 @@
         },delay)
     }
 
-    thAnimate('.fengmian-mask .top','hide1','animated fadeInDown',600);
-    thAnimate('.fengmian-mask .bottom','hide1','animated fadeIn',800);
+
+    window.onload=function () {
+        thAnimate('.fengmian-mask .top','hide1','animated fadeInDown',600);
+        thAnimate('.fengmian-mask .bottom','hide1','animated fadeIn',800);
+
+    }
 
 </script>
 </body>
