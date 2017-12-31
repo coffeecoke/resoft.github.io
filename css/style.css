@@ -33,7 +33,7 @@ body {
 }
 .title-lists {
     position: absolute;
-    top:0px;
+    top:-32px;
     left:0px;
     z-index:10;
     width:100%;
@@ -335,8 +335,9 @@ body {
 
 .chatview {
   width:100%;
-  /*background-color: #fff;*/
-  height: 100%;
+  background-color: #fff;
+  /*height: 100%;*/
+    bottom:0;
   position: absolute;
   z-index:100;
   overflow: auto;
@@ -344,7 +345,7 @@ body {
   opacity:0;
   transition: top .4s ease-in,opacity .4s ease-out;
 
-	-webkit-overflow-scrolling:touch;
+	/*-webkit-overflow-scrolling:touch;*/
 }
 .chatview.chatview-animate {
   top:0;
@@ -360,7 +361,7 @@ body {
 .chatview-item {
   width:100%;
   background-color: #fff;
-  /*height:2000px;*/
+  height:2000px;
   /*display: none;*/
 }
 

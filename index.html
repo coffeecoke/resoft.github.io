@@ -333,10 +333,10 @@
 
     })
 
-//    $('#slider .slide').each(function(index,ele){
-//        var linkSrc = $(this).data('url');
-//        chatviewItem.eq(index).load(linkSrc);
-//    })
+    $('#slider .slide').each(function(index,ele){
+        var linkSrc = $(this).data('url');
+        chatviewItem.eq(index).load(linkSrc);
+    })
     $('.fengmian-mask').on('click',function(){
 //        $(this).hide();
 //        $('.title-lists,.title-min-list,.page-nums,.slider-pagi-wrapper,.play-img').show();
@@ -417,12 +417,14 @@
 
 
     function popPage(index) {
-        chatviewItem.eq(index).load(linkSrc, function () {
-            chatviewItem.eq(index).show().siblings('.chatview-item').hide();
-            chatview.addClass('chatview-animate');
-            thAnimate('.title-img','hide1','animated fadeIn',600);
-        })
-
+//        chatviewItem.eq(index).load(linkSrc, function () {
+//            chatviewItem.eq(index).show().siblings('.chatview-item').hide();
+//            chatview.addClass('chatview-animate');
+//            thAnimate('.title-img','hide1','animated fadeIn',600);
+//        })
+        chatviewItem.eq(index).show().siblings('.chatview-item').hide();
+        chatview.addClass('chatview-animate');
+        thAnimate('.chatview-item'+(index+1)+' .title-img','hide1','animated fadeIn',600);
 
     }
 
