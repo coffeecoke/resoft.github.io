@@ -86,7 +86,7 @@ body {
     position: absolute;
     z-index: 5;
     right: 20px;
-    bottom: 60px;
+    bottom: 30px;
 }
 .slider-pagi-wrapper:before{
     content:'';
@@ -366,14 +366,14 @@ body {
 
 .play-img {
     position: absolute;
-    bottom:60px;
+    bottom:23px;
     left:20px;
     z-index:9;
     width:50px;
 }
 .page-nums {
     position: absolute;
-    bottom:100px;
+    bottom:60px;
     right:20px;
     z-index:10;
     color:#fff;
